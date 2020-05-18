@@ -1,0 +1,23 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisstya2000/tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisstya2000/tasks/issues"
+  },
+  "homepage": "https://github.com/krisstya2000/tasks#readme",
+  "dependencies": {
+    "@types/node": "^13.13.5",
+    "readline-sync": "^1.4.10"
+  }
+}
