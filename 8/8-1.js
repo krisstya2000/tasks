@@ -1,13 +1,10 @@
 const readlineSync = require("readline-sync");
 
+n = 3
 let words = [];
-let name = readlineSync.question("Whar is your name?\n> ");
-console.log("Hi, " + name + "!");
 
-let mail = readlineSync.question("Write your mail\n> ");
-console.log("ok, " + mail);
-
-let color = readlineSync.question(`Your favorite color?\n> `);
-console.log (color + ` is a perfect color\n> ` );
-
-
+for (let i = 0; i < n; ++i) {
+    let word = readlineSync.question(`word?\n> `);
+    words.push(word);
+}
+console.log(words.join(`,`));
