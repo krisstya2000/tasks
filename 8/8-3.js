@@ -6,12 +6,12 @@ let str = readlineSync.question("str?\n> ");
     
  
 for (let i = 0; i < str.length; i++) {
-    let char = str[i];
-    if (char >= "A" && char <= "Z") {
-        ++big;
+    let letter = str[i];
+    if (letter >= `A` && letter <= `Z`) {
+        big += 1;
     }
-    if (char >= `a` && char <= `z`) {
-        ++small;
+    if (letter >= `a` && letter <= `z`) {
+        small += 1;
     }
 }
 
